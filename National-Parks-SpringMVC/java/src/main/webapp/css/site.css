@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+#headerLinks {
+	list-style: none;
+	display: flex;
+	background-color: black;
+}
+#footer {
+	background-color: black;
+}
+#headerLinks li {
+	padding: 10px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+#logo {
+	width: 30%;
+	height: auto;
+}
+
+.content {
+	display: flex;
+	padding: 10px;
+}
+
+.summary {
+	padding: 10px;
+}
+.imageContainer img {
+	width: 90%;
+	height: auto;
+}
+.summary {
+	width: 70%;
+	height: auto;
+}
+.detailImageContainer img {
+	width: 95%;
+	height: 400px;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.detailSummary {
+	width: 95%;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#name {
+	font-size: 1.5rem;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+#quote {
+	font-style: italic;
+	text-align: center;
+}
+
+#firstLine {
+	display: flex;
+	align-items: flex-end;
+}
+#founded {
+	font-style: italic;
+	padding-top: 10px;
+}
+#todaysWeather {
+	display: block;
+	width: 25%;
+	margin-top: 1%;
+	height: auto;
+	background: lightgray;
+	border: 1px solid;
+	border-radius: 5px;
+	margin-bottom: 1%;
+	}
+#todaysWeather img {
+	width: 100%;
+	height: auto;
+}
+#todayWord {
+	text-align: center;
+	font-weight: bold;
+	font-size: 33px;
+}
+#allWeather {
+	display: flex;
+	justify-content: space-between;
+}
+
+#otherWeather img {
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+#otherWeather {
+display: block;
+	width: 15%;
+	margin-top: 1%;
+	height: 15%;
+	background: lightgray;
+	border: 1px solid;
+	border-radius: 5px;
+}
+#temp {
+	display: flex;
+	justify-content: space-evenly;
+}
+#high {
+	font-weight: bold;
+	
+}
+#low {
+	font-weight: bold;
+	
+}
+#todayHigh {
+	font-weight: bold;
+}
+#todayLow {
+	font-weight: bold;
+}
+#otherTemp {
+	text-align: center;
+}
+#surveyContent {
+	width: 95%;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#radioLabel {
+	font-weight: bold;
+}
+#radioList {
+	display: block;
+}
+#psa{
+	padding-left: 10px;
+	padding-right: 10px;
+}
